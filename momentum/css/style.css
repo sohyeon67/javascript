@@ -1,0 +1,80 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: floralwhite;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+body * {
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
+
+#clock {
+    font-size: 100px;
+    margin: 0;
+}
+
+form input {
+    margin-top: 20px;
+    font-size: large;
+    color: floralwhite;
+    text-align: left;
+    width: 350px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid floralwhite;
+}
+
+input:focus { outline: none; }
+
+ul {
+    list-style: none;
+}
+
+
+
+#todo-list li{
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px;
+    width: 400px;
+}
+
+#todo-list li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+#todo-list li button {
+    position: absolute;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#quote span {
+    display: block;
+}
+
+#weather {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#weather span {
+    display: block;
+    text-align: right;
+}
